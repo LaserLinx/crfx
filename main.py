@@ -86,6 +86,7 @@ recipe = recipe_format(**load_recipe("ui_format.json"))
 
 while True:
 	os.system("clear")
+	print(WHITE)
 	print(f"Recipe Type: {recipe.recipe_type}")
 	
 	print(compare_layout(build_grid(recipe.grid,recipe.grid_width,recipe.grid_height),build_sets(recipe.sets)))
