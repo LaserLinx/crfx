@@ -1,0 +1,45 @@
+{
+	"recipe_type": "testing recipe type",
+	"grid": {
+		"0x0": {
+			"id": "0"
+		},
+		"0x1": {
+			"id": "1"
+		},
+		"0x2": {
+			"id": "2"
+		},
+		"1x0": {
+			"id": "3"
+		},
+		"1x1": {
+			"id": "4",
+			"value": "S"
+		},
+		"1x2": {
+			"id": "5"
+		},
+		"2x0": {
+			"id": "6"
+		},
+		"2x1": {
+			"id": "7",
+			"value": "S"
+		},
+		"2x2": {
+			"id": "8"
+		},
+		"1x4": {
+			"id": "R",
+			"value": "R"
+		}
+	},
+	"sets": {
+		"D": "minecraft:diamond",
+		"S": "minecraft:stick",
+		"R": "minecraft:diamond_pickaxe"
+	},
+	"grid_width": 10,
+	"grid_height": 3
+}
